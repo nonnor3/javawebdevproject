@@ -1,0 +1,121 @@
+/* Overall body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0ebf5, #c2d6e9); /* Cool blue gradient */
+    color: #333;
+    margin: 0;
+    padding: 0 0 50px 0; /* Extra padding at the bottom */
+    line-height: 1.6;
+}
+
+/* Making the main title pop */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    margin: 20px auto;  /* Centering magic */
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05); /* Just a touch of shadow */
+    border-radius: 5px;
+    width: 740px; 
+}
+
+/* Letting users know how many games they can still grab */
+#claims-remaining {
+    text-align: center;
+    margin: 20px auto;  
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);  
+    border-radius: 5px;
+    width: 700px;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+/* Brief intro about the offer */
+#description {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2em;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer-content {
+    background-color: #2d3d54;
+    color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #e5a020; 
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* A touch of classic web */
+}
+
+/* Styling individual game blocks */
+.game {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Some shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animations */
+}
+
+.game:last-of-type {
+    margin-bottom: 40px; /* Extra space for the last game */
+}
+
+.game:hover {
+    transform: translateY(-10px); /* Move the game up a bit when hovered */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* More shadow for emphasis */
+}
+
+/* Button stylings */
+button {
+    display: block;
+    background-color: #3498db; /* Nice blue */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darken the blue a bit */
+}
+
+button:disabled {
+    background-color: #aaa; /* Grey out the disabled button */
+    cursor: not-allowed; /* No clicky! */
+}
+
+/* Styling the 'most popular' badge next to games */
+.bonus-badge {
+    background-color: #e74c3c; /* That attention-grabbing red */
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 0.8em;
+    margin-left: 10px; /* Space it from the game title */
+    vertical-align: middle;
+}
+
+.game h2 {
+    display: inline-block; /* Makes badge and title sit next to each other */
+}

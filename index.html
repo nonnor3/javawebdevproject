@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for specifying the character set used -->
+    <meta charset="UTF-8">
+
+    <!-- Metadata for ensuring responsive design on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Setting the title for the browser tab -->
+    <title>Game Key Claimer</title>
+
+    <!-- Linking the external CSS file for webpage styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Linking the external JavaScript file. 'defer' ensures script execution after HTML parsing -->
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Main heading displayed at the top of the page -->
+    <h1>Free Video Game Store</h1>
+
+    <!-- Paragraph describing the offer provided by the store -->
+    <div id="description">
+        Our video game store is feeling generous! Here, you can claim up to 5 game keys for free. Once claimed, you can activate them on the Steam platform and enjoy your games.
+    </div>
+
+    <!-- Section showing the number of game keys a user can claim -->
+    <div id="claims-remaining">
+        Games left to claim: <span>5</span>
+    </div>
+
+    <!-- Displaying the game "Counter Strike: Global Offensive" with its popularity badge -->
+    <div class="game">
+        <h2>Counter Strike: Global Offensive <span class="bonus-badge">Most Popular</span></h2>
+        <button data-game="Counter Strike: Global Offensive">Claim Key</button>
+    </div>
+
+         <!-- Buttons to claim the game key, with a custom data attribute storing the game's name
+            The following code below repeats the thing above for all 10 games -->
+
+         <div class="game">
+            <h2>Dota 2</h2>
+            <button data-game="Dota 2">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Apex Legends</h2>
+            <button data-game="Apex Legends">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>PUBG: BATTLEGROUNDS</h2>
+            <button data-game="PUBG: BATTLEGROUNDS">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Grand Theft Auto V <span class="bonus-badge">Still Going Strong</span></h2>
+            <button data-game="Grand Theft Auto V">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Rust</h2>
+            <button data-game="Rust">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Team Fortress 2</h2>
+            <button data-game="Team Fortress 2">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Call of Duty: Modern Warfare II</h2>
+            <button data-game="Call of Duty: Modern Warfare II">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>Destiny 2</h2>
+            <button data-game="Destiny 2">Claim Key</button>
+        </div>
+        <div class="game">
+            <h2>War Thunder <span class="bonus-badge">Upcoming</span> </h2>
+            <button data-game="War Thunder">Claim Key</button>
+        </div>
+
+        
+    </div>
+    <!-- Creating a footer -->
+    <footer>
+        <div class="footer-content">
+            We offer the top 10 video games in 2023, according to <a href="https://www.statista.com/statistics/1179973/steam-games-peak-concurrent-players/" target="_blank" rel="noopener noreferrer">Statista</a>. 
+            <br>
+            Note: This is a fictional game store for demonstration purposes. The keys provided are not valid for activation on any platform.
+        </div>
+    </footer>
+    
+</body>
+</html>
