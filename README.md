@@ -5,19 +5,13 @@ My main focus with this project is learning how to put everything together, how 
 
 ## Setup
 
-1. **Clone the Repository**  
-   git clone <REPO_URL>
-
-2. **Navigate to the Project Directory**  
-   cd <PROJECT_DIRECTORY>
-
-3. **Set-up**  
+1. **Set-up**  
    This project uses Node.js and Express.js, which you will need to install.
    Make sure you installed Node on your machine. Then type this in your terminal:
    npm install
 
-5. **Start the Server**  
+2. **Start the Server**  
    Start the server using Node.js, by typing this in your terminal: node server.js
 
-6. **View in Browser**  
+3. **View in Browser**  
     Once running, you can access the application in your browser at this URL: http://localhost:3000`
