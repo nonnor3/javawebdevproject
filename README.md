@@ -6,7 +6,7 @@ My main focus with this project is learning how to put everything together, how 
 # Setup
 
 1. **Set-up**  
-   This project uses Node.js and Express.js, which you will need to install.
+   This project uses Node.js, Express.js, and the Dotenv package which you will need to install.
    Make sure you installed Node on your machine. Then type this in your terminal:
    npm install
 
