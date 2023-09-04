@@ -3,6 +3,8 @@
 This is a Java/web development project where I decided to create a fictional video game store. 
 My main focus with this project is learning how to put everything together, how to set up a back-end, and develop a fully working web application.
 
+Please note that the .env file should not normally be uploaded to GitHub ever. I have only done this as this is a practice project with imaginary data.
+
 # Setup
 
 1. **Set-up**  
